@@ -2,7 +2,7 @@ from pox.core import core
 from pox.web.webcore import SplitterRequestHandler, SplitRequestHandler, SplitThreadedServer
 import os
 import threading
-from .jsonrpc_controller import BSSController
+from .controller import BSSController
 
 log = core.getLogger()
 

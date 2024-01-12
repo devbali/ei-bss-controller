@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# For sudo later, enter password
+sudo echo ''
+
 ./pox.py bss-controller &
 sleep 2
 python3 ext/bss-controller/tests/basic_test_receiver.py
